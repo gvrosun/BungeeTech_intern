@@ -54,7 +54,7 @@ def filter_price(file_path):
         sorted_price = sorted(clean_price)
 
         if len(sorted_price) == 1:
-            first_min = second_min = sorted_price[0]
+            continue
         else:
             first_min, second_min = sorted_price[0:2]
 
